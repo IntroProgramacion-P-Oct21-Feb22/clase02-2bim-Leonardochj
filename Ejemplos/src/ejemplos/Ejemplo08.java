@@ -19,6 +19,7 @@ public class Ejemplo08 {
     public static void main(String[] args) {
         // Declarar y generar arreglos en Java
         
+        String cadena = "" ; 
         int dato;
         int suma = 0;
         // arreglo de tipo entero
@@ -30,10 +31,13 @@ public class Ejemplo08 {
         for (int i = 0; i < arreglo1.length; i++) {
             // agrego el valor de la posición del arreglo a la variable
             // acumuladora  suma
+            cadena = String.format("%s\n%d\n", cadena,
+                arreglo1[i]);
             suma = suma + arreglo1[i];
         }
         
-        System.out.printf("La suma de los valores del arreglo es: %d\n", suma);
+        System.out.printf("La valores son: %s\n"
+                + "La suma es: %d\n", cadena, suma);
         
     }
 

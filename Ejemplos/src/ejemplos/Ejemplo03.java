@@ -27,6 +27,7 @@ public class Ejemplo03 {
         // arreglo de tipo entero
         int[] arreglo3 = {5, 10, 15, 20, 25};
         
+        double[] arreglo5 = {5.5, 10.5, 15.5, 20.5, 25.5};
     }
 
 }

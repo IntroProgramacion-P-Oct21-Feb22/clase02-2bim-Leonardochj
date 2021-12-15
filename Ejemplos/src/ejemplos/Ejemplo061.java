@@ -25,7 +25,7 @@ public class Ejemplo061 {
         
         // Se asigna valores al arreglo, pidiendo valores por teclado
         // se usa un ciclo repetitivo
-        for (int i = 0; i < arreglo1.length; i++) {
+        for (int i = 0; i < 5; i++) {
             System.out.println("Ingrese un valor para el arreglo");
             dato = entrada.nextLine();
             // se asigna la variable dato a la posición del arreglo
@@ -34,7 +34,7 @@ public class Ejemplo061 {
         }
         
         // Se hace uso del ciclo repetitivo for para recorrer el arreglo
-        for (int i = 0; i < arreglo1.length; i++) {
+        for (int i = 0; i < 5; i++) {
             System.out.printf("Subíndice o Índice %d, con valor %s\n",
                     i, arreglo1[i]);
         }

@@ -19,16 +19,16 @@ public class Ejemplo01 {
 
         // arreglo de tipo entero
         int[] arreglo1 = new int[5];
-
-        // arreglo de tipo double
+        int[] paises_latinoamerica = new int[8];
+        // arreglo de tipo double8
         double[] arreglo2 = new double[5];
-
+        double[] poblacion_paises = new double[10];
         // arreglo de tipo char
         char[] arreglo3 = new char[5];
-
+        char[] nombre_paises = new char[20];
         // arreglo de tipo String
         String[] arreglo4 = new String[5];
-        
+        String[] poblacion_nombrepaises = new String[20];
         // arreglo de tipo boleano
         boolean[] arreglo5 = new boolean[5];
     }
